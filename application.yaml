@@ -12,3 +12,7 @@ okta:
   oauth2:
     issuer: https://dev-42525761.okta.com/oauth2/default
     audience: api://default
+spring:
+  zipkin:
+    baseurl: http://zipkin-svc:9411
+    
